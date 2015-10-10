@@ -41,7 +41,7 @@ var opts = {
 	'reviver': reviver
 };
 
-readJSON( '/path/to/data.json5', opts, onData );
+read( '/path/to/data.json5', opts, onData );
 
 function onData( error, data ) {
 	if ( error ) {
